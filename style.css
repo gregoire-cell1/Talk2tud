@@ -1,13 +1,14 @@
 /* Variables globales et reset */
+/* Variables globales et reset */
 :root {
-  --primary: #4f46e5;
-  --secondary: #7c3aed;
-  --accent: #f5f7fa;
-  --white: #ffffff;
-  --grey: #f9f9f9;
-  --text-color: #333;
+  --primary: #1f1f1f; /* Couleur principale sombre */
+  --secondary: #2d2d2d; /* Couleur secondaire pour des accents sombres */
+  --accent: #444; /* Couleur de fond claire mais sobre pour contraster avec le noir */
+  --white: #ffffff; /* Blanc pour le texte et éléments contrastants */
+  --grey: #555; /* Gris pour les éléments secondaires */
+  --text-color: #e0e0e0; /* Texte clair pour se détacher du fond sombre */
   --transition-speed: 0.3s;
-  --shadow: 0 8px 24px rgba(0,0,0,0.1);
+  --shadow: 0 8px 24px rgba(0,0,0,0.5); /* Ombre plus marquée pour le contraste */
 }
 
 * {
