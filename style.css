@@ -323,7 +323,7 @@ footer {
 }
 
 .logo img {
-  height: 80px; /* adapte selon la taille de ton logo */
+  height: 150px; /* adapte selon la taille de ton logo */
   width: auto;
   display: block;
 }
