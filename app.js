@@ -337,7 +337,7 @@ function createCard(formation) {
     <ul>${formation.emploi_du_temps.map(j => `<li>${j}</li>`).join("")}</ul>
     <p><strong>Note de satisfaction :</strong> ⭐ ${formation.satisfaction}/5</p>
     <p><strong>Vie étudiante :</strong> ${formation.description}</p>
-    <button disabled>Fonctionnalité indisponible</button>
+    <button disabled>Contacter un étudiant</button>
   `;
   container.appendChild(card);
 }
