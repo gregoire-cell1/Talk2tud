@@ -189,6 +189,132 @@ const formations = [
     satisfaction: 4.1,
     description: "Formation créative et opérationnelle, axée sur la pratique.",
     etudiants: ["Camille, 20 ans", "Adrien, 21 ans"]
+  },
+  {
+    nom: "BTS Hôtellerie-Restauration",
+    etablissement: "Lycée Hôtelier de Marseille",
+    ville: "Marseille",
+    transport: "Métro M1 - Vieux-Port",
+    duree: "2 ans",
+    diplome: "BTS",
+    debouches: "Chef de cuisine, Responsable de salle, poursuite en licence pro hôtellerie",
+    cout: "300€ / an",
+    parcoursup: "Oui",
+    emploi_du_temps: [
+      "Lundi : Gestion de la production",
+      "Mardi : Techniques culinaires",
+      "Mercredi : Accueil et service",
+      "Jeudi : Gestion d'équipe",
+      "Vendredi : Stage en établissement"
+    ],
+    satisfaction: 4.4,
+    description: "Formation pratique en cuisine et service avec des stages dans des établissements prestigieux.",
+    etudiants: ["Juliette, 21 ans", "Thomas, 20 ans"]
+  },
+  {
+    nom: "Licence Langues Étrangères Appliquées",
+    etablissement: "Université de Lille",
+    ville: "Lille",
+    transport: "Métro M1 - Gare Lille Flandres",
+    duree: "3 ans",
+    diplome: "Licence",
+    debouches: "Traducteur, Interprète, Responsable export",
+    cout: "170€ / an",
+    parcoursup: "Oui",
+    emploi_du_temps: [
+      "Lundi : Anglais",
+      "Mardi : Espagnol",
+      "Mercredi : Cours d'économie",
+      "Jeudi : Traduction technique",
+      "Vendredi : Stage à l'international"
+    ],
+    satisfaction: 4.3,
+    description: "Formation enrichissante avec des séjours linguistiques et une forte orientation internationale.",
+    etudiants: ["Sophie, 22 ans", "Léo, 21 ans"]
+  },
+  {
+    nom: "Master Data Science",
+    etablissement: "Université de Paris-Saclay",
+    ville: "Paris",
+    transport: "RER B - Orsay",
+    duree: "2 ans",
+    diplome: "Master",
+    debouches: "Data Scientist, Analyste Big Data, Ingénieur en IA",
+    cout: "8 000€ / an",
+    parcoursup: "Non",
+    emploi_du_temps: [
+      "Lundi : Statistiques avancées",
+      "Mardi : Machine Learning",
+      "Mercredi : Programmation Python",
+      "Jeudi : Projet en Data Science",
+      "Vendredi : Séminaire de recherche"
+    ],
+    satisfaction: 4.8,
+    description: "Formation intensive avec des projets de recherche en collaboration avec des entreprises.",
+    etudiants: ["Pierre, 23 ans", "Julien, 24 ans"]
+  },
+  {
+    nom: "BTS Assistant de Manager",
+    etablissement: "Lycée Louis Le Grand",
+    ville: "Paris",
+    transport: "Métro 4 - Saint-Michel",
+    duree: "2 ans",
+    diplome: "BTS",
+    debouches: "Assistant de direction, Chef de projet, Responsable administratif",
+    cout: "200€ / an",
+    parcoursup: "Oui",
+    emploi_du_temps: [
+      "Lundi : Gestion des ressources humaines",
+      "Mardi : Techniques de communication",
+      "Mercredi : Gestion de projet",
+      "Jeudi : Droit du travail",
+      "Vendredi : Stage en entreprise"
+    ],
+    satisfaction: 4.2,
+    description: "Formation complète en gestion de projet et management, avec des stages variés.",
+    etudiants: ["Zoé, 20 ans", "Marc, 21 ans"]
+  },
+  {
+    nom: "Licence Sciences de l'Education",
+    etablissement: "Université de Rennes 2",
+    ville: "Rennes",
+    transport: "Tram T2 - Villejean-Université",
+    duree: "3 ans",
+    diplome: "Licence",
+    debouches: "Enseignant, Conseiller pédagogique, Animateur socio-éducatif",
+    cout: "170€ / an",
+    parcoursup: "Oui",
+    emploi_du_temps: [
+      "Lundi : Psychologie de l'enfant",
+      "Mardi : Méthodologie de l'enseignement",
+      "Mercredi : Éducation spécialisée",
+      "Jeudi : Sciences sociales",
+      "Vendredi : Stage pédagogique"
+    ],
+    satisfaction: 4.4,
+    description: "Formation axée sur les métiers de l'éducation, avec des expériences de terrain.",
+    etudiants: ["Lucie, 22 ans", "Pierre, 23 ans"]
+  },
+  {
+    nom: "BTS Systèmes Numériques",
+    etablissement: "Lycée Paul Langevin",
+    ville: "Villeurbanne",
+    transport: "Tram T4 - Gratte-Ciel",
+    duree: "2 ans",
+    diplome: "BTS",
+    debouches: "Technicien réseaux, Développeur informatique, poursuite en licence pro",
+    cout: "250€ / an",
+    parcoursup: "Oui",
+    emploi_du_temps: [
+      "Lundi : Algorithmique et programmation",
+      "Mardi : Systèmes embarqués",
+      "Mercredi : Réseaux et télécommunications",
+      "Jeudi : Sécurité des systèmes",
+      "Vendredi : Stage en entreprise"
+    ],
+    satisfaction: 4.6,
+    description: "Formation complète dans le domaine des systèmes numériques, avec des projets pratiques.",
+    etudiants: ["Nicolas, 21 ans", "Laura, 20 ans"]
   }
 ];
 
