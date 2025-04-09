@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Formation Finder - La plateforme moderne qui connecte lycéens et étudiants pour obtenir des informations transparentes sur les formations." />
+  <title>Formation Finder - Modernité & Transparence</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#home" data-page="home">Formation Finder</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" data-page="home" class="nav-link active">Accueil</a></li>
+        <li><a href="#about" data-page="about" class="nav-link">À propos</a></li>
+        <li><a href="#features" data-page="features" class="nav-link">Fonctionnalités</a></li>
+        <li><a href="#formations" data-page="formations" class="nav-link">Formations</a></li>
+        <li><a href="#testimonials" data-page="testimonials" class="nav-link">Témoignages</a></li>
+        <li><a href="#contact" data-page="contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- SECTION ACCUEIL -->
+  <section id="home" class="page-section active-section">
+    <div class="hero">
+      <div class="hero-content">
+        <h1>Bienvenue sur Formation Finder</h1>
+        <p>La plateforme qui connecte lycéens et étudiants afin d'obtenir des retours d'expérience 100% transparents sur les formations.</p>
+        <a href="#formations" data-page="formations" class="btn-main">Explorer les formations</a>
+      </div>
+      <div class="hero-media">
+        <!-- Remplacez l'URL par celle de votre image ou vidéo -->
+        <img src="https://vhugo.org/wp-content/uploads/2024/09/orientation.jpg" alt="Image impactante illustrant la plateforme" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION À PROPOS -->
+  <section id="about" class="page-section">
+    <div class="section-header">
+      <h2>À propos de Formation Finder</h2>
+      <p>Notre mission : fournir une information claire, honnête et vérifiée sur les formations afin de faciliter l’orientation des lycéens et réorienter les étudiants.</p>
+    </div>
+    <div class="about-content">
+      <div class="about-item">
+        <h3>Transparence</h3>
+        <p>Des retours d'expériences authentiques partagés par de vrais étudiants.</p>
+      </div>
+      <div class="about-item">
+        <h3>Accessibilité</h3>
+        <p>Une plateforme intuitive, adaptée à tous les écrans et facile d'accès.</p>
+      </div>
+      <div class="about-item">
+        <h3>Communauté</h3>
+        <p>Rejoignez une grande communauté d’utilisateurs engagés.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION FONCTIONNALITÉS -->
+  <section id="features" class="page-section">
+    <div class="section-header">
+      <h2>Nos Fonctionnalités</h2>
+      <p>Tout ce qui fait de Formation Finder un outil indispensable pour choisir sa formation.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Recherche Avancée</h3>
+        <p>Filtrez et trouvez la formation qui vous correspond grâce à notre moteur de recherche performant.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Détails Complets</h3>
+        <p>Accédez à des informations détaillées sur chaque formation : durée, débouchés, coût, emploi du temps et plus encore.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Transparence Totale</h3>
+        <p>Consultez des avis vérifiés et des retours d'expérience impartiaux pour vous éclairer.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Accessible & Moderne</h3>
+        <p>Une interface design, fluide et responsive pour une navigation sans effort sur tous vos appareils.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION FORMATIONS -->
+  <section id="formations" class="page-section">
+    <div class="section-header">
+      <h2>Nos Formations</h2>
+      <p>Explorez notre catalogue détaillé de formations pour découvrir celle qui vous correspond.</p>
+      <div id="filters">
+        <input type="text" id="searchInput" placeholder="🔍 Rechercher une formation…" />
+      </div>
+    </div>
+    <div id="cardsContainer" class="cards-grid">
+      <!-- Les cartes de formations seront injectées en JavaScript -->
+    </div>
+  </section>
+
+  <!-- SECTION TÉMOIGNAGES -->
+  <section id="testimonials" class="page-section">
+    <div class="section-header">
+      <h2>Témoignages</h2>
+      <p>Découvrez ce que disent nos utilisateurs de leur expérience sur Formation Finder.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p>"Grâce à Formation Finder, j'ai pu choisir la formation qui me correspond vraiment et éviter bien des écueils!"</p>
+        <h4>— Alex, lycéen</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"Les avis transparents m'ont permis de réorienter mon parcours et de prendre une décision en toute connaissance de cause."</p>
+        <h4>— Marie, étudiante</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"Une interface moderne et des informations fiables, je recommande vivement!"</p>
+        <h4>— Julien, étudiant</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION CONTACT -->
+  <section id="contact" class="page-section">
+    <div class="section-header">
+      <h2>Contactez-nous</h2>
+      <p>Vous avez la moindre question ? Remplissez le formulaire ci-dessous et nous vous répondrons rapidement.</p>
+    </div>
+    <form id="contactForm" class="contact-form">
+      <div class="form-group">
+        <label for="name">Nom / Prénom</label>
+        <input type="text" id="name" placeholder="Votre nom" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Votre email" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+      </div>
+      <button type="submit" class="btn-main">Envoyer le message</button>
+    </form>
+    <div id="contactConfirmation" class="contact-confirmation hidden">
+      <p>Merci pour votre message ! Nous reviendrons vers vous rapidement.</p>
+    </div>
+  </section>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; 2025 Formation Finder • Conçu par des étudiants, pour des étudiants.</p>
+  </footer>
+  
+  <script src="app.js"></script>
+</body>
+</html>
