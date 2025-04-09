@@ -154,7 +154,7 @@ body {
   gap: 2rem;
   width: 100vw;
   overflow: hidden;
-  animation: scrollTestimonials 90s linear infinite;
+  animation: scrollTestimonials 40s linear infinite;
   padding: 2rem 0;
 }
 
