@@ -271,6 +271,11 @@ footer {
   margin-top: 4rem;
 }
 
+/* Suppression du soulignement des liens */
+a {
+  text-decoration: none;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .navbar {
