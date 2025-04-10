@@ -1,14 +1,8 @@
 /* =========================
    Navigation et changement de page
 ============================ */
-const navLinks = document.querySelector('.nav-links');  // Récupère l'élément nav-links
-const allNavLinks = document.querySelectorAll('.nav-link, .btn-main');  // Récupère tous les liens nav-link et btn-main
-const hamburger = document.querySelector('.hamburger');  // Récupère le bouton hamburger
-
-hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('active');  // Active ou désactive la classe active sur nav-links
-});
-
+const navLinks = document.querySelectorAll('.nav-link, .btn-main');
+const sections = document.querySelectorAll('.page-section');
 
 function switchPage(pageId) {
   // Affiche la section ciblée et masque les autres
