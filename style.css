@@ -1,16 +1,17 @@
 :root {
-  --bg-dark: #0d0d0d;
-  --bg-deep: #1e1b4b;
-  --bg-violet: #3f3cbb;
-  --bg-glass: rgba(255, 255, 255, 0.05);
+  --bg-dark: #121212;           /* Fond très sombre */
+  --bg-deep: #1e1e1e;           /* Fond presque noir */
+  --bg-violet: #252525;         /* Une nuance intermédiaire pour les zones secondaires */
+  --bg-glass: rgba(0, 0, 0, 0.75);/* Effet "glass" sombre et opaque */
   --border-glass: rgba(255, 255, 255, 0.1);
-  --text-main: #f3f3f3;
-  --text-muted: #b5b5b5;
-  --accent: #8b5cf6;
-  --hover-accent: #a78bfa;
+  --text-main: #e0e0e0;         /* Texte en gris très clair */
+  --text-muted: #a0a0a0;        /* Texte atténué */
+  --accent: #8b8b8b;           /* Couleur d'accent neutre et élégante */
+  --hover-accent: #ababab;     /* Légère variation pour le hover */
   --transition: 0.3s ease;
-  --shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.9);
 }
+
 
 * {
   margin: 0;
