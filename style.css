@@ -404,3 +404,10 @@ a {
     width: 90%;
   }
 }
+
+/* Forcer l'affichage des sections */
+.page-section {
+    display: block !important;
+    opacity: 1 !important;
+    transform: none !important;
+}
